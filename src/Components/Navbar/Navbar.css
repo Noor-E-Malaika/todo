@@ -1,0 +1,27 @@
+.navbar {
+    background-color: rgb(47, 47, 97);
+}
+.logo {
+    background-color: rgb(47, 47, 97);
+    color: rgb(47, 47, 83);
+}
+.me {
+    margin-left: 600px;
+    color: white;
+    
+}
+#basic {
+    color: white;
+}
+
+.btn {
+    border-radius: 15px;
+    height: 5vh;
+    width: 5vw;
+    border: none;
+    background-color:  rgb(47, 47, 97);
+    color: white;
+    border: 1px solid white;
+    margin-left: 400px;
+    
+}

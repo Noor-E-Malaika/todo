@@ -1,0 +1,94 @@
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    background-color: rgb(252, 252, 248)
+  }
+  
+  
+  h1 {
+    color: rgb(61, 60, 60);
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+  }
+  
+  .container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 12px;
+    width: 300px;
+    border: 1px solid #ddd;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: whitesmoke;
+    box-shadow: 0 0 5px rgba(158, 168, 158, 0.3);
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: rgb(24, 24, 110);
+    color: white;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 6vh;
+    
+  }
+  
+  button:hover {
+    background-color: rgb(24, 24, 110);
+    transform: scale(1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 350px;
+  }
+  
+  li {
+    background-color: #fff;
+    color: black;
+    margin-bottom: 6px;
+    width: 26vw;
+    height: 4vh;
+    margin-left: -15px;
+    padding: 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    word-break: break-word;
+  }
+
+  #del, #edit {
+    color: rgb(49, 45, 45);
+    background-color: #ddd;
+    border: none;
+    margin: 0;
+    margin-left: -5px;
+    font-size: 25px;
+    cursor: pointer;
+   
+  }
+  
+ 
